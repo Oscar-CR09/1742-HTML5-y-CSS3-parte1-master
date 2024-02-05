@@ -1,7 +1,7 @@
-body{
+.tituloPrincipal{
+    padding-left: 30%;
     
 }
-
 #banner{
     width: 100%;
 }
@@ -11,7 +11,8 @@ body{
     background-color: #cccccc;
     padding:20px
 }
-h1{
+
+.titulo-centralizado{
     text-align: center;
 }
 p{
@@ -31,12 +32,10 @@ em strong{
 .diferenciales{
     background:#ffffff;
     padding:30px;
-    
+
 }
 
-h2{
-    text-align:center;
-}
+
 .items{
     font-style:italic;
 
