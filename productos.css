@@ -36,8 +36,40 @@ nav a {
 .productos{
     width: 940px;
     margin: 0 auto;
+    padding: 50px;
+
 }
 .productos li {
     display: inline-block;
+    text-align:center;
+    width: 30%;
+    vertical-align: top;
+    /*background-color: #cccccc;*/
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
 
+    border-radius: 10px;
+    
+    /*border-top-left-radius: 10px;*/
+
+
+    /*border-color: #000000;
+    border-width: 2px;
+    border-style: solid;*/
+}
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-description{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
