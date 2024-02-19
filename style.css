@@ -124,11 +124,10 @@ form label{
     font-size: 20px;
     margin: 0 0 10px;
 }
-form input{
+form input,form textarea{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px 10px;
     width: 50%;
-
 
 }
