@@ -5,50 +5,73 @@
     <head>
         <meta charset="UTF-8">
         <title>Barberia Alura </title>
-        <link rel="stylesheet" href="style-home.css">
-
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
 
         <header>
 
-            <h1 class="tituloPrincipal">Barberia Alura</h1> 
+            <div class="caja">
+
+                <h1><img src="imagenes/logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contactos</a></li>
+                        
+                    </ul>
+                </nav>
+
+            </div>
 
         </header>
 
-        <img id="banner" src="banner/banner.jpg">
+        <img class="banner" src="banner/banner.jpg">
 
-        <div class="principal">
+        <main>
 
-            <h2 class="titulo-centralizado">Sobre la Barbería Alura</h2>
+            <section class="principal">
+
+                <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+            
+                <p>Ubicada en el corazón de la ciudad, la <strong> Barbería Alura</strong>  trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, 
+                    la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
         
-            <p>Ubicada en el corazón de la ciudad, la <strong> Barbería Alura</strong>  trae para el mercado lo que hay de mejor para su cabello y barba. Fundada en 2020, 
-                la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
+                <p id="mision"><em> Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong> </em></p>
+        
+                <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y 
+                    movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. 
+                    El atendimiento posee un padrón de excelencia y agilidad, 
+                    garantizando calidad y satisfacción de nuestros clientes.</p>
     
-            <p id="mision"><em> Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong> </em></p>
+            </section>
     
-            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y 
-                movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. 
-                El atendimiento posee un padrón de excelencia y agilidad, 
-                garantizando calidad y satisfacción de nuestros clientes.</p>
+            <section class="diferenciales">
+                <h3 class="titulo-principal">Diferenciales</h3>
+    
+                <ul>
+                    <li class="items">Atención personalizada a los clientes</li>
+                    <li class="items">Tenemos diferenciado</li>
+                    <li class="items">Localización</li>
+                    <li class="items">Profecionales calificados</li>
+                    
+                </ul>    
+    
+                <img src="diferenciales/barberia.jpg" class="imagenDiferenciales">
+            </section>
 
-        </div>
+        </main>
+       
 
-        <div class="diferenciales">
-            <h3 class="titulo-centralizado">Diferenciales</h3>
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="Copyright">&copy Copyright Bareria 2024 </p>
 
-            <ul>
-                <li class="items">Atención personalizada a los clientes</li>
-                <li class="items">Tenemos diferenciado</li>
-                <li class="items">Localización</li>
-                <li class="items">Profecionales calificados</li>
-                
-            </ul>    
-
-            <img src="diferenciales/barberia.jpg" class="imagenDiferenciales">
-        </div>
-
+        </footer>
     </body>
 
 </html>
