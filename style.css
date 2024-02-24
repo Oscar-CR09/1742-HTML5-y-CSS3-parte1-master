@@ -183,6 +183,11 @@ td, th {
 .banner{
     width: 100%;
 }
+.principal{
+    padding: 3em 0;
+    background: #fefefefe;
+
+}
 
 .titulo-principal{
     text-align: center;
@@ -217,15 +222,30 @@ td, th {
     text-align: center;
 
 }
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
+    
+}
 .items{
     line-height: 1.5;
 }
 .items:first-child{
 
     font-weight: bold;
-    
+
 }
-.imagenDiferenciales{
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.imagen-diferenciales{
     width: 60%;
     
 }
