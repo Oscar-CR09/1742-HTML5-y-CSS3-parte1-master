@@ -193,6 +193,25 @@ td, th {
     clear: left;
 
 }
+
+.titulo-principal:first-letter{
+    font-weight: bold;
+
+}
+
+.titulo-principal::before{
+    content: "[";
+}
+.titulo-principal::after{
+    content: "]";
+}
+
+p::first-line{
+    font-style: italic;
+}
+
+
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -212,7 +231,7 @@ td, th {
 
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(0deg, #ffffff ,#888888 );
+    background: linear-gradient(180deg, #ffffff ,#888888 );
 
 }
 .mapa p{
@@ -231,6 +250,9 @@ td, th {
     padding: 3em 0;
     background: #888888;
     
+}
+.items:before{
+    content: "✵";
 }
 .items{
     line-height: 1.5;
