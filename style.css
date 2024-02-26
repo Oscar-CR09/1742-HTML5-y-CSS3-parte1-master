@@ -180,6 +180,7 @@ td, th {
     width: 100%;
 }
 /* manejar las selecciones solamente los parrafos especificos*/
+/*
 main > p{
 
     background: red;
@@ -194,7 +195,7 @@ img ~ p{
 .principal p:not(#mision){
     background: orange;
 }
-
+*/
 .principal{
     padding: 3em 0;
     background: #fefefefe;
