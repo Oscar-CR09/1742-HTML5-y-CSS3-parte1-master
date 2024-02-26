@@ -309,8 +309,23 @@ p::first-line{
 }
 
 @media screen and (max-width:480px) {
+
+    h1{
+        text-align:center;
+
+    }
+    nav{
+        position: static;
+    }
+
  
-    
+   .caja,.principal,.mapaContenido,.contenido-diferenciales,.video{
+        width: auto;
+
+   }
+   .lista-diferenciales,.imagen-diferenciales{
+    width: 100%;
+   } 
 
 }
 
