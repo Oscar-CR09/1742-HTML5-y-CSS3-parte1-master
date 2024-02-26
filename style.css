@@ -210,6 +210,7 @@ img ~ p{
     margin: 0 0 1em;
     clear: left;
     /*color: rgba(0, 0, 0, 0.3); opacidad*/
+    /*text-shadow: 2px 2px 10px red; difuminacion*/
 
 }
 
@@ -293,6 +294,8 @@ p::first-line{
 }
 .imagen-diferenciales{
     width: 60%;
+    /*difuminacion pueden ser varios difuminados 1 2 o 3 pero son demasiados */
+    box-shadow: 10px 10px 20px 15px #000000,-10px -10px yellow ;
     
 }
 .imagen-diferenciales:hover{
